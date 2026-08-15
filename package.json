@@ -1,0 +1,11 @@
+{
+  "name": "no-name",
+  "private": true,
+  "workspaces": ["apps/*"],
+  "scripts": {
+    "dev": "npm run dev -w no-name-client",
+    "build": "npm run build -w no-name-client",
+    "relay": "npm run dev -w no-name-relay",
+    "start": "npm run start -w no-name-relay"
+  }
+}
